@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav {
+  width: 50%;
+  border-left: 1px solid black;
+}
+
+.component {
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding:20px;
+}
+
+.checked-products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+}
+
+.checked-product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+}
